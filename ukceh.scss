@@ -9,6 +9,7 @@ $presentation-title-slide-text-align: left !default;
 
 /*-- scss:rules --*/
 
+
 .reveal .slide-logo {
     width: auto !important;
     height: auto !important;
@@ -36,4 +37,22 @@ $presentation-title-slide-text-align: left !default;
 .reveal .slides > section:first-child h1 {
     color: white !important;
 }
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+.closing-slide {
+    color: white;
+}
+
+.closing-slide h1,
+.closing-slide h2,
+.closing-slide h3,
+.closing-slide h4,
+.closing-slide h5,
+.closing-slide h6 {
+    color: white;
+}
+
 

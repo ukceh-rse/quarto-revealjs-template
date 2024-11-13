@@ -1,30 +1,38 @@
 ---
-title: Title
-subtitle: Subtitle
-date: today
+title: Plain-text presentations
+subtitle: A template
+date: last-modified
 date-format: long
-
-bibliography: references.bib
-
-author:
-  name: Author Name
-  affiliation: UK Centre for Ecology & Hydrology
-  email: autnam@ceh.ac.uk
-  orcid: 0000-xxxx-xxxx-xxxx
 
 format:
   revealjs:
     theme: [default, ukceh.scss]
     logo: images/logo.png
-    footer: <a href="https://ceh.ac.uk">ceh.ac.uk</a>
+    footer: Slides published at <a href="https://ukceh-rse.github.io/quarto-reveal-theme">ukceh-rse.github.io/quarto-reveal-theme</a>
     slide-number: c/t
     show-slide-number: all
     progress: true
-    #title-slide-attributes:
-    #data-background-image: images/PP_wave-01.svg
+    title-slide-attributes:
+      data-background-image: images/PP_wave-01.png
     embed-resources: true
----
+    header-includes: |
+      <script src="ukceh.js" type="application/javascript"></script>
 
+affiliations:
+  - id: ukceh
+    name: UK Centre for Ecology & Hydrology
+    url: https://ceh.ac.uk
+
+authors:
+  - name: Joe Marsh Rossney
+    affiliation:
+      - ref: ukceh
+    email: joemar@ceh.ac.uk
+    url: https://github.com/jmarshrossney
+    orcid: 0000-0002-8082-8566
+
+bibliography: references.bib
+---
 
 ## First slide
 
@@ -33,16 +41,20 @@ To learn more about Quarto presentations using Revealjs visit <https://quarto.or
 
 Hello world^[This came from [@DelDebbio2021, pp.3-5]]
 
+::: {.notes}
+Here are some notes for you as you present!
+:::
+
 ## Second slide
 
 ::: aside
 This came from [@DelDebbio2021, pp. 3-5]
 :::
 
-
-## Thanks {background-image="images/background_blue.jpg"}
+## Thanks for listening! { .no-logo .no-footer .closing-slide .center background-image="images/PP_wave-02.png"}
 
 **Any questions?**
+
 
 
 ## References
