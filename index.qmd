@@ -1,0 +1,48 @@
+---
+title: Title
+subtitle: Subtitle
+date: today
+date-format: long
+
+bibliography: references.bib
+
+author:
+  name: Author Name
+  affiliation: UK Centre for Ecology & Hydrology
+  email: autnam@ceh.ac.uk
+  orcid: 0000-xxxx-xxxx-xxxx
+
+format:
+  revealjs:
+    theme: [default, ukceh.scss]
+    logo: images/logo.png
+    footer: <a href="https://ceh.ac.uk">ceh.ac.uk</a>
+    slide-number: c/t
+    show-slide-number: all
+    progress: true
+    #title-slide-attributes:
+    #data-background-image: images/PP_wave-01.svg
+    embed-resources: true
+---
+
+
+## First slide
+
+To learn more about Quarto presentations using Revealjs visit <https://quarto.org/docs/presentations/revealjs/>.
+
+
+Hello world^[This came from [@DelDebbio2021, pp.3-5]]
+
+## Second slide
+
+::: aside
+This came from [@DelDebbio2021, pp. 3-5]
+:::
+
+
+## Thanks {background-image="images/background_blue.jpg"}
+
+**Any questions?**
+
+
+## References
