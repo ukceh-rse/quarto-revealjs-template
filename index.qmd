@@ -1,6 +1,6 @@
 ---
-title: Plain-text presentations
-subtitle: A template
+title: Title
+subtitle: Subtitle
 date: last-modified
 date-format: long
 
@@ -12,9 +12,9 @@ format:
     slide-number: c/t
     show-slide-number: all
     progress: true
+    embed-resources: true
     title-slide-attributes:
       data-background-image: images/PP_wave-01.png
-    embed-resources: true
     header-includes: |
       <script src="ukceh.js" type="application/javascript"></script>
 
@@ -39,22 +39,9 @@ bibliography: references.bib
 To learn more about Quarto presentations using Revealjs visit <https://quarto.org/docs/presentations/revealjs/>.
 
 
-Hello world^[This came from [@DelDebbio2021, pp.3-5]]
-
-::: {.notes}
-Here are some notes for you as you present!
-:::
-
-## Second slide
-
-::: aside
-This came from [@DelDebbio2021, pp. 3-5]
-:::
-
 ## Thanks for listening! { .no-logo .no-footer .closing-slide .center background-image="images/PP_wave-02.png"}
 
 **Any questions?**
-
 
 
 ## References
