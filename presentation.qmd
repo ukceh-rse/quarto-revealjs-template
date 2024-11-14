@@ -8,7 +8,7 @@ format:
   revealjs:
     theme: [default, ukceh.scss]
     logo: images/logo.png
-    footer: Slides published at <a href="https://ukceh-rse.github.io/quarto-reveal-theme">ukceh-rse.github.io/quarto-reveal-theme</a>
+    footer: Slides published at <a href="https://ukceh-rse.github.io/quarto-revealjs-template">ukceh-rse.github.io/quarto-revealjs-template</a>
     slide-number: c/t
     show-slide-number: all
     progress: true
