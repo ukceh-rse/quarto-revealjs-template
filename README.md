@@ -1,5 +1,8 @@
 # Making Presentations with Quarto & RevealJS
 
+> [!IMPORTANT]
+> This project is being subsumed under https://github.com/ukceh-rse/quarto-templates and will soon be archived!
+
 ## High-level instructions
 
 1. Fork this repository
