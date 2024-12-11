@@ -54,6 +54,9 @@ authors:
 :::{.column width=75%}
 - Hello
 - My name is Alba
+- Projects I have been working on:
+  1. Pipeline for plankton images: From acquiring images and metadata from the microscope to storing them in the object store on JASMIN, preprocessing the images, and running binary models on them. Additionally, assessing different tools for labeling the images.
+  2. Economics of Biodiversity project: Developing a digital tool to help farmers and landowners manage their land and assess the feasibility of installing a solar farm. Gathering data from different datasets like E-planner habitat suitability, Land cover maps, Hedgerows, Local nature recovery plans, Solar constraints, resource and habitats data.
 :::
 :::{.column width=25%}
 ![](assets/alba.jpeg)
