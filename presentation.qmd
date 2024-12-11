@@ -1,7 +1,7 @@
 ---
-title: Title
-subtitle: Subtitle
-date: last-modified
+title: Updates from the RSE Group
+#subtitle: Subtitle
+date: 2024-12-13
 date-format: long
 
 format:
@@ -19,23 +19,97 @@ format:
       <script src="ukceh.js" type="application/javascript"></script>
 
 authors:
-  - name: Joe Marsh Rossney
-    affiliation: UK Centre for Ecology & Hydrology
-    email: joemar@ceh.ac.uk
-    url: https://github.com/jmarshrossney
-    orcid: 0000-0002-8082-8566
-
-bibliography: references.bib
+  - Robin Long,
+  - Jo Walsh
 ---
 
-## First slide
+## What we've been working on
 
-To learn more about Quarto presentations using Revealjs visit <https://quarto.org/docs/presentations/revealjs/>.
+:::::{.panel-tabset}
+
+### Matt B
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Matt
+:::
+:::{.column width=25%}
+![](assets/mattb.jpeg)
+:::
+::::
+
+### Matt C
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Matt
+:::
+:::{.column width=25%}
+![](assets/mattc.jpeg)
+:::
+::::
+
+### Alba
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Alba
+:::
+:::{.column width=25%}
+![](assets/alba.jpeg)
+:::
+::::
+
+### Robin
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Robin
+:::
+:::{.column width=25%}
+![](assets/robin.jpeg)
+:::
+::::
+
+### Joe
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Joe
+:::
+:::{.column width=25%}
+![](assets/joe.jpeg)
+:::
+::::
+
+### Jo
+::::{.columns}
+:::{.column width=75%}
+- Hello
+- My name is Jo
+:::
+:::{.column width=25%}
+![](assets/jo.jpeg)
+:::
+::::
+
+:::::
 
 
-## Thanks for listening! { .no-logo .no-footer .closing-slide .center background-image="assets/closing.svg"}
-
-**Any questions?**
+## Group Activities
 
 
-## References {.smaller .scrollable}
+::::{.columns}
+:::{.column width=75%}
+- Site introductions at all four UK sites
+- RSE Conference
+-
+:::
+:::{.column width=25%}
+![Jo at RSECon](assets/jw_rsecon24.jpg)
+![Joe at RSECon](assets/jmr_rsecon24.jpg)
+:::
+::::
+
+# Thanks { .no-logo .no-footer .closing-slide .center background-image="assets/closing.svg"}
+
