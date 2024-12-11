@@ -74,8 +74,10 @@ authors:
 ### Joe
 ::::{.columns}
 :::{.column width=75%}
-- Hello
-- My name is Joe
+- Jules
+- BioDT
+- Stats group?
+- Branded documents (e.g. this)
 :::
 :::{.column width=25%}
 ![](assets/joe.jpeg)
