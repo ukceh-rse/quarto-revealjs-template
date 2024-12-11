@@ -74,8 +74,14 @@ authors:
 ### Joe
 ::::{.columns}
 :::{.column width=75%}
-- Hello
-- My name is Joe
+
+- **JULES:** 
+  - Developed a tool for running JULES experiments on laptops, DataLabs, VMs etc, via command line and/or Jupyter notebooks.
+  - Working on NC-Intl project towards building an emulator for East Africa.
+- **BioDT:** Containerised an R model for 'Recreation Potential' for which is now running the the LUMI HPC.
+- **Mathematics for Rewilding:** Contributor to an upcoming journal article.
+- **Community:** Worked on GitHub community discussion forum.
+- **Branded, plain-text documents:** E.g. this presentation.
 :::
 :::{.column width=25%}
 ![](assets/joe.jpeg)
