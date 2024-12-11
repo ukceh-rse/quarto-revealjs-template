@@ -1,0 +1,82 @@
+# IMPORTANT: this is not an official UKCEH product
+#
+# See https://posit-dev.github.io/brand-yml/brand/ for reference
+
+meta:
+  name:
+    full: UK Centre for Ecology & Hydrology
+    short: UKCEH
+  link:
+    home: https://www.ceh.ac.uk/
+    github: https://github.com/ukceh-rse/brand-yml
+    linkedin: https://www.linkedin.com/company/uk-centre-for-ecology-hydrology/
+  description: |
+    The UK Centre for Ecology & Hydrology (UKCEH) is a leading independent research institute dedicated to understanding and transforming how we interact with the natural world. With over 600 researchers, we tackle the urgent environmental challenges of our time, such as climate change and biodiversity loss. Our evidence-based insights empower governments, businesses, and communities to make informed decisions, shaping a future where both nature and people thrive.
+
+logo:
+  medium: images/logo.svg
+
+color:
+  palette:
+    # Logo colours
+    blue: "#2f7ece"
+    green: "#4da43a"
+    # Hero colour
+    teal: "#0483a4"
+    # Primary palette
+    charcoal: "#333333"
+    light-grey: "#eaefec"
+    # Highlight colour
+    orange: "#f49633"
+    # Extended palette
+    soil: "#8f7158"
+    silt: "#ffeace"
+    pale-green: "#90c164"
+    bright-green: "#37a635"
+    garden-green: "#00883c"
+    bottle-green: "#047e56"
+    dark-teal: "#007370"
+    ice-blue: "#c9e7f2"
+    pale-blue: "#34b8c7"
+    sky-blue: "#009dcb"
+    cornflower-blue: "#227fc1"
+    cobalt-blue: "#0a5da4"
+    dark-blue: "#00678e"
+    # NOTE: ommitted slight variants of teal & orange
+
+  foreground: charcoal
+  background: white
+  primary: green
+  secondary: blue
+  tertiary: light-grey
+
+typography:
+  fonts:
+    - source: google
+      family: Lato
+      style: [normal, italic]
+      weight: 400
+
+    - source: google
+      family: Montserrat
+      style: normal
+      weight: 600
+
+    - source: google
+      family: Fira Code
+      style: normal
+      weight: 400
+
+  base: 
+    family: Lato
+
+  headings:
+    family: Montserrat
+    color: teal
+
+  monospace:
+    family: Fira Code
+    background-color: light-grey
+
+  link:
+    color: green

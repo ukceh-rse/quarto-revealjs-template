@@ -3,6 +3,7 @@
 $body-bg: whitesmoke !default;
 $body-color: black !default;
 $link-color: green !default;
+$presentation-font-size-root: 40px !default;
 $presentation-heading-color: steelblue !default;
 $presentation-h1-font-size: 2.0em !default;
 $presentation-title-slide-text-align: left !default;
@@ -31,15 +32,21 @@ $presentation-title-slide-text-align: left !default;
 }
 
 .reveal .slides > section:first-child {
+    width: 70% !important;
     color: white !important;
 }
 
-.reveal .slides > section:first-child h1 {
+.reveal .quarto-title-block .title {
     color: white !important;
+    font-size: 1.8em !important;
 }
 
-.reveal .slide-number > a[href*='title-slide'] {
-  display: none;
+.reveal .quarto-title-block .quarto-title-authors {
+    font-size: 1.0em !important;
+}
+
+.reveal .quarto-title-block .date {
+    font-size: 1.0em !important;
 }
 
 .closing-slide {
@@ -53,6 +60,7 @@ $presentation-title-slide-text-align: left !default;
 .closing-slide h5,
 .closing-slide h6 {
     color: white;
+    font-size: 1.6em !important;
 }
 
 
