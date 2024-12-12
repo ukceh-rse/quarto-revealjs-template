@@ -30,8 +30,10 @@ authors:
 ### Matt B
 ::::{.columns}
 :::{.column width=75%}
-- Hello
-- My name is Matt
+- Thinking a lot around how we do large gridded data workflows (for FDRI)
+- Lots of thoughts for various bits of the process here: 
+- https://github.com/NERC-CEH/dri_gridded_data/issues
+![](assets/fancy-fdri-diagram.png)
 :::
 :::{.column width=25%}
 ![](assets/mattb.jpeg)
