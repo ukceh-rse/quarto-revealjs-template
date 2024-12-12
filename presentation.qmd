@@ -23,107 +23,98 @@ authors:
   - Jo Walsh
 ---
 
-## What we've been working on {.smaller}
+## Who we are
 
-:::::{.panel-tabset}
+::::{.columns}
+:::{.column width=33%}
 
-### Matt B
+(assets/alba.jpeg)
+(assets/mattb.jpeg)
+
+:::
+
+:::{.column width=33%}
+
+(assets/mattc.jpeg)
+(assets/robin.jpeg)
+
+:::
+
+:::{.column width=33%}
+
+(assets/joe.jpeg)
+(assets/jo.jpeg)
+
+:::
+
+
+::::{.columns}
+
+## Some things we've worked on (Part 1) {.smaller}
+
 ::::{.columns}
 :::{.column width=75%}
-- Thinking a lot around how we do large gridded data workflows (for FDRI)
-- Lots of thoughts for various bits of the process here: 
-- https://github.com/NERC-CEH/dri_gridded_data/issues
+- How we do large gridded data workflows 
+- LLM based interfaces for talking to your data
+- Image processing pipelines "from microscope to metadata"
+- Reusing deep learning models for image search 
+- Managing interaction with JASMIN storage via API
+
+:::
+:::{.column width=25%}
 ![](assets/fancy-fdri-diagram.png)
 :::
-:::{.column width=25%}
-![](assets/mattb.jpeg)
-:::
 ::::
 
-### Matt C
-::::{.columns}
-:::{.column width=75%}
-- **NCUK**
-  - Developed RAG-based [prototype](https://github.com/NERC-CEH/embeddings_app) for querying the EIDC data catalogue. 
-  - Working on an [evaluation workflow](https://github.com/NERC-CEH/llm-eval) for RAG systems. 
-  - Developing a data explorer prototype that will allow users to talk to their data using an LLM, automatically generate code snippets, and visualise data.
-- **LLM Working Group**
-  - Helping to link together group activities around the use of AI and LLMs.
-- **Training** 
-  - Developing [custom training material](https://ukceh-rse.github.io/git-novice/) for UKCEH based on software carpentries.
-:::
-:::{.column width=25%}
-![](assets/mattc.jpeg)
-:::
-::::
+## Some things we've worked on (Part 2) {.smaller}
 
-### Alba
-::::{.columns}
-:::{.column width=75%}
-- **Pipeline for plankton images:** From acquiring images and metadata from the microscope to storing them in the object store on JASMIN, preprocessing the images, and running binary models on them. Additionally, assessing different tools for labeling the images.
-- **Economics of Biodiversity project:** Developing a digital tool to help farmers and landowners manage their land and assess the feasibility of installing a solar farm. Gathering data from different datasets like E-planner habitat suitability, Land cover maps, Hedgerows, Local nature recovery plans, Solar constraints, resource and habitats data.
-:::
-:::{.column width=25%}
-![](assets/alba.jpeg)
-:::
-::::
+- Combine habitat data, Land cover maps, Hedgerows, Local nature recovery plans, etc to help plan solar installations.
+- Run JULES experiments on laptops, DataLabs, VMs etc
+- Regional JULES emulation for NC International
+- Containerising models for use on HPC.
+- Refactoring Datalabs notebooks into reusable packages
+- **Branded, plain-text document templates:** E.g. this presentation.
 
-### Robin
-::::{.columns}
-:::{.column width=75%}
-- Hello
-- My name is Robin
-:::
-:::{.column width=25%}
-![](assets/robin.jpeg)
-:::
-::::
+## Project Links
 
-### Joe
-::::{.columns}
-:::{.column width=75%}
+* [DRI Gridded Data issues](https://github.com/NERC-CEH/dri_gridded_data/issues)
+* [Retrieval Augmented Generation for EIDC prototype](https://github.com/NERC-CEH/embeddings_app)
+* [Workflow for evaluating LLMs](https://github.com/NERC-CEH/llm-eval)
+* [Pipelines for image machine learning](http://github.com/NERC-CEH/llm-eval)
+* [Custom git training material](https://ukceh-rse.github.io/git-novice/)
 
-- **JULES:** 
-  - Developed a tool for running JULES experiments on laptops, DataLabs, VMs etc, via command line and/or Jupyter notebooks.
-  - Working on NC-Intl project towards building an emulator for East Africa.
-- **BioDT:** Containerised an R model for 'Recreation Potential' for which is now running the the LUMI HPC.
-- **Mathematics for Rewilding:** Contributor to an upcoming journal article.
-- **Community:** Worked on GitHub community discussion forum.
-- **Branded, plain-text documents:** E.g. this presentation.
-:::
-:::{.column width=25%}
-![](assets/joe.jpeg)
-:::
-::::
 
-### Jo
-::::{.columns}
-:::{.column width=75%}
-- Hello
-- My name is Jo
-:::
-:::{.column width=25%}
-![](assets/jo.jpeg)
-:::
-::::
+## Community Engagement
 
-:::::
+- Working groups
+ * LLM Working Group
+ * Science Computing Group
+ * Computer User Engagement Group
+ * Science Skills Squad
 
+- Material development
+ * GitHub community discussion forum
+ * Introduction to source control and workflows (based on Carpentries)
+ * "Social Coding" with Github (early days, based on CodeRefinery)
 
 ## Group Activities
-
 
 ::::{.columns}
 :::{.column width=75%}
 - Site introductions at all four UK sites
-- RSE Conference
--
+- Presentations at RSE Conference in Newcastle
+
 :::
 :::{.column width=25%}
 ![Jo at RSECon](assets/jw_rsecon24.jpg)
 ![Joe at RSECon](assets/jmr_rsecon24.jpg)
 :::
 ::::
+
+## Extras
+
+* Upcoming Mathematics for Rewilding journal article
+* 2025 SSI Fellowship on Open Source Hardware for Environmental Monitoring
 
 # Thanks { .no-logo .no-footer .closing-slide .center background-image="assets/closing.svg"}
 
