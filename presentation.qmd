@@ -65,8 +65,14 @@ authors:
 ### Robin
 ::::{.columns}
 :::{.column width=75%}
-- Hello
-- My name is Robin
+- **Boost** - UKRI Data Cloud Pilot: WP3 - Interconnect genomic and environmental datasets
+  - Looking at an existing application (ID-TaxER) which connects genomic and environmental data.
+  - Turn from monolithic into modular pipeline
+  - Can we easily change out modulars to support other analyses or different types of genomic data?
+  - Easily deploy RShiny app through datalabs.
+  - Thinking about provenance through analysis.
+- Working on training in VC/Git/GitHub for UKCEH staff, and advice on best use of these.
+- Workign with Skills squad to coordinate training in software.
 :::
 :::{.column width=25%}
 ![](assets/robin.jpeg)
