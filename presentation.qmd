@@ -80,13 +80,13 @@ authors:
 * [DRI Gridded Data issues](https://github.com/NERC-CEH/dri_gridded_data/issues)
 * [Retrieval Augmented Generation for EIDC prototype](https://github.com/NERC-CEH/embeddings_app)
 * [Workflow for evaluating LLMs](https://github.com/NERC-CEH/llm-eval)
-* [Pipelines for image machine learning](http://github.com/NERC-CEH/llm-eval)
+* [Pipelines for image machine learning](http://github.com/NERC-CEH/plankton_ml)
 * [Custom git training material](https://ukceh-rse.github.io/git-novice/)
-
+* [Report on containerising BioDT model](https://github.com/ukceh-rse/biodt-rpmodel-report)
 
 ## Community Engagement
 
-- Working groups
+- Working groups we're participating in:
  * LLM Working Group
  * Science Computing Group
  * Computer User Engagement Group
