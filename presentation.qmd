@@ -41,8 +41,14 @@ authors:
 ### Matt C
 ::::{.columns}
 :::{.column width=75%}
-- Hello
-- My name is Matt
+- **NCUK**
+  - Developed RAG-based [prototype](https://github.com/NERC-CEH/embeddings_app) for querying the EIDC data catalogue. 
+  - Working on an [evaluation workflow](https://github.com/NERC-CEH/llm-eval) for RAG systems. 
+  - Developing a data explorer prototype that will allow users to talk to their data using an LLM, automatically generate code snippets, and visualise data.
+- **LLM Working Group**
+  - Helping to link together group activities around the use of AI and LLMs.
+- **Training** 
+  - Developing [custom training material](https://ukceh-rse.github.io/git-novice/) for UKCEH based on software carpentries.
 :::
 :::{.column width=25%}
 ![](assets/mattc.jpeg)
